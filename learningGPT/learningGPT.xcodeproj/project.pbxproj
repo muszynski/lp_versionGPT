@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CDAB555D29A7E7140005F6B1 /* learningGPTApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAB555C29A7E7140005F6B1 /* learningGPTApp.swift */; };
-		CDAB555F29A7E7140005F6B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAB555E29A7E7140005F6B1 /* ContentView.swift */; };
 		CDAB556129A7E7150005F6B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAB556029A7E7150005F6B1 /* Assets.xcassets */; };
 		CDAB556429A7E7150005F6B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAB556329A7E7150005F6B1 /* Preview Assets.xcassets */; };
 		CDAB556D29A7E75D0005F6B1 /* NavigationTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAB556C29A7E75D0005F6B1 /* NavigationTabs.swift */; };
@@ -21,7 +20,6 @@
 /* Begin PBXFileReference section */
 		CDAB555929A7E7140005F6B1 /* learningGPT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = learningGPT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAB555C29A7E7140005F6B1 /* learningGPTApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = learningGPTApp.swift; sourceTree = "<group>"; };
-		CDAB555E29A7E7140005F6B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CDAB556029A7E7150005F6B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDAB556329A7E7150005F6B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CDAB556C29A7E75D0005F6B1 /* NavigationTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTabs.swift; sourceTree = "<group>"; };
@@ -65,7 +63,6 @@
 				CDAB556A29A7E73C0005F6B1 /* Data */,
 				CDAB555C29A7E7140005F6B1 /* learningGPTApp.swift */,
 				CDAB557429A7E9270005F6B1 /* Model.xcdatamodeld */,
-				CDAB555E29A7E7140005F6B1 /* ContentView.swift */,
 				CDAB556029A7E7150005F6B1 /* Assets.xcassets */,
 				CDAB556229A7E7150005F6B1 /* Preview Content */,
 			);
@@ -168,7 +165,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDAB555F29A7E7140005F6B1 /* ContentView.swift in Sources */,
 				CDAB556F29A7E76A0005F6B1 /* HomeView.swift in Sources */,
 				CDAB557329A7E7880005F6B1 /* ReminderView.swift in Sources */,
 				CDAB557629A7E9270005F6B1 /* Model.xcdatamodeld in Sources */,
