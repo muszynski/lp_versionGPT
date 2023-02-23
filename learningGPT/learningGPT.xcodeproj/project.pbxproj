@@ -11,10 +11,11 @@
 		CDAB555F29A7E7140005F6B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAB555E29A7E7140005F6B1 /* ContentView.swift */; };
 		CDAB556129A7E7150005F6B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAB556029A7E7150005F6B1 /* Assets.xcassets */; };
 		CDAB556429A7E7150005F6B1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAB556329A7E7150005F6B1 /* Preview Assets.xcassets */; };
-		CDAB556D29A7E75D0005F6B1 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAB556C29A7E75D0005F6B1 /* NavigationView.swift */; };
+		CDAB556D29A7E75D0005F6B1 /* NavigationTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAB556C29A7E75D0005F6B1 /* NavigationTabs.swift */; };
 		CDAB556F29A7E76A0005F6B1 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAB556E29A7E76A0005F6B1 /* HomeView.swift */; };
 		CDAB557129A7E7750005F6B1 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAB557029A7E7750005F6B1 /* ListView.swift */; };
 		CDAB557329A7E7880005F6B1 /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAB557229A7E7880005F6B1 /* ReminderView.swift */; };
+		CDAB557629A7E9270005F6B1 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDAB557429A7E9270005F6B1 /* Model.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,10 +24,11 @@
 		CDAB555E29A7E7140005F6B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CDAB556029A7E7150005F6B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDAB556329A7E7150005F6B1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CDAB556C29A7E75D0005F6B1 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		CDAB556C29A7E75D0005F6B1 /* NavigationTabs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTabs.swift; sourceTree = "<group>"; };
 		CDAB556E29A7E76A0005F6B1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		CDAB557029A7E7750005F6B1 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		CDAB557229A7E7880005F6B1 /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
+		CDAB557529A7E9270005F6B1 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				CDAB556B29A7E7440005F6B1 /* View */,
 				CDAB556A29A7E73C0005F6B1 /* Data */,
 				CDAB555C29A7E7140005F6B1 /* learningGPTApp.swift */,
+				CDAB557429A7E9270005F6B1 /* Model.xcdatamodeld */,
 				CDAB555E29A7E7140005F6B1 /* ContentView.swift */,
 				CDAB556029A7E7150005F6B1 /* Assets.xcassets */,
 				CDAB556229A7E7150005F6B1 /* Preview Content */,
@@ -87,7 +90,7 @@
 		CDAB556B29A7E7440005F6B1 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				CDAB556C29A7E75D0005F6B1 /* NavigationView.swift */,
+				CDAB556C29A7E75D0005F6B1 /* NavigationTabs.swift */,
 				CDAB556E29A7E76A0005F6B1 /* HomeView.swift */,
 				CDAB557029A7E7750005F6B1 /* ListView.swift */,
 				CDAB557229A7E7880005F6B1 /* ReminderView.swift */,
@@ -168,8 +171,9 @@
 				CDAB555F29A7E7140005F6B1 /* ContentView.swift in Sources */,
 				CDAB556F29A7E76A0005F6B1 /* HomeView.swift in Sources */,
 				CDAB557329A7E7880005F6B1 /* ReminderView.swift in Sources */,
+				CDAB557629A7E9270005F6B1 /* Model.xcdatamodeld in Sources */,
 				CDAB557129A7E7750005F6B1 /* ListView.swift in Sources */,
-				CDAB556D29A7E75D0005F6B1 /* NavigationView.swift in Sources */,
+				CDAB556D29A7E75D0005F6B1 /* NavigationTabs.swift in Sources */,
 				CDAB555D29A7E7140005F6B1 /* learningGPTApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +375,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CDAB557429A7E9270005F6B1 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CDAB557529A7E9270005F6B1 /* Model.xcdatamodel */,
+			);
+			currentVersion = CDAB557529A7E9270005F6B1 /* Model.xcdatamodel */;
+			name = Model.xcdatamodeld;
+			path = Data/Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CDAB555129A7E7140005F6B1 /* Project object */;
 }

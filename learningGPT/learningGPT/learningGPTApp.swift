@@ -11,7 +11,7 @@ import SwiftUI
 struct learningGPTApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationTabs()
         }
     }
 }
