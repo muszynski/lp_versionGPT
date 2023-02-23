@@ -15,6 +15,7 @@
 		CDAB557129A7E7750005F6B1 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAB557029A7E7750005F6B1 /* ListView.swift */; };
 		CDAB557329A7E7880005F6B1 /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAB557229A7E7880005F6B1 /* ReminderView.swift */; };
 		CDAB557629A7E9270005F6B1 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CDAB557429A7E9270005F6B1 /* Model.xcdatamodeld */; };
+		CDAB557829A7EB650005F6B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAB557729A7EB650005F6B1 /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		CDAB557029A7E7750005F6B1 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		CDAB557229A7E7880005F6B1 /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
 		CDAB557529A7E9270005F6B1 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		CDAB557729A7EB650005F6B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +64,6 @@
 				CDAB556B29A7E7440005F6B1 /* View */,
 				CDAB556A29A7E73C0005F6B1 /* Data */,
 				CDAB555C29A7E7140005F6B1 /* learningGPTApp.swift */,
-				CDAB557429A7E9270005F6B1 /* Model.xcdatamodeld */,
 				CDAB556029A7E7150005F6B1 /* Assets.xcassets */,
 				CDAB556229A7E7150005F6B1 /* Preview Content */,
 			);
@@ -80,6 +81,8 @@
 		CDAB556A29A7E73C0005F6B1 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				CDAB557429A7E9270005F6B1 /* Model.xcdatamodeld */,
+				CDAB557729A7EB650005F6B1 /* AppDelegate.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				CDAB557329A7E7880005F6B1 /* ReminderView.swift in Sources */,
 				CDAB557629A7E9270005F6B1 /* Model.xcdatamodeld in Sources */,
 				CDAB557129A7E7750005F6B1 /* ListView.swift in Sources */,
+				CDAB557829A7EB650005F6B1 /* AppDelegate.swift in Sources */,
 				CDAB556D29A7E75D0005F6B1 /* NavigationTabs.swift in Sources */,
 				CDAB555D29A7E7140005F6B1 /* learningGPTApp.swift in Sources */,
 			);
@@ -379,8 +383,7 @@
 				CDAB557529A7E9270005F6B1 /* Model.xcdatamodel */,
 			);
 			currentVersion = CDAB557529A7E9270005F6B1 /* Model.xcdatamodel */;
-			name = Model.xcdatamodeld;
-			path = Data/Model.xcdatamodeld;
+			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
