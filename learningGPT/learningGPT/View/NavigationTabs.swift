@@ -15,7 +15,11 @@ struct NavigationTabs: View {
                     Image(systemName: "house.fill")
                     Text("Home")
                 }
-            
+            AddLesson()
+                .tabItem {
+                    Image(systemName: "plus.app")
+                    Text("Add lesson")
+                }
             ListView()
                 .tabItem {
                     Image(systemName: "list.bullet")
